@@ -135,4 +135,4 @@ biefeihua/
 
 ## License
 
-MIT © 2026 高旭生
+MIT © 2026 GaoXanSheng
