@@ -87,34 +87,6 @@
 
 ---
 
-## 安装
-
-### 克隆到 skills 目录
-
-Git Bash / macOS / Linux：
-
-```bash
-git clone https://github.com/GaoXanSheng/biefeihua.git ~/.agents/skills/bie-feihua
-```
-
-Windows PowerShell：
-
-```powershell
-git clone https://github.com/GaoXanSheng/biefeihua.git "$HOME\.agents\skills\bie-feihua"
-```
-
-### 只下载 SKILL.md
-
-```bash
-mkdir -p ~/.agents/skills/bie-feihua
-curl -fsSL https://raw.githubusercontent.com/GaoXanSheng/biefeihua/main/SKILL.md \
-  -o ~/.agents/skills/bie-feihua/SKILL.md
-```
-
-重启会话后生效。使用支持 `SKILL.md` 与 YAML frontmatter 的代理（ZCode、Claude Code 等）时，也可以放进对应的 skills 目录。
-
----
-
 ## 使用
 
 ```
